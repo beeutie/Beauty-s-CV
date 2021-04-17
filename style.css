@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'century gothic';
+}
+
+.header {
+    height: 100%;
+    background-color: white;
+    border: 10px black solid;
+    width: 3200px;
+    margin: auto;
+}
+
+img {
+    width: 900px;
+    height: 900px;
+    margin: 200px;
+    z-index: 3;
+    position: relative;
+}
+
+.box2 {
+    width: 3000px;
+    height: 4600px;
+    margin: auto;
+}
+
+
+/* hr {
+            border: 2px dashed tomato;
+        } */
+
+ul {
+    padding: 20px;
+}
+
+.P {
+    background-color: rgb(247, 139, 120);
+    /* padding-top: 150px; */
+}
+
+.S {
+    background-color: rgb(128, 223, 213);
+}
+
+.Q {
+    background-color: burlywood;
+}
+
+.I {
+    background-color: rgb(147, 197, 98);
+}
+
+.C {
+    background-color: rgb(211, 132, 76);
+}
+
+.R {
+    background-color: rgb(135, 167, 228);
+}
+
+h1 {
+    font-size: 80px;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: black;
+}
+
+.pd {
+    list-style: none;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.school {
+    list-style: circle;
+    font-size: 60px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.qual {
+    list-style: circle;
+    font-size: 60px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.interests {
+    list-style: circle;
+    font-size: 60px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.core {
+    list-style: circle;
+    font-size: 60px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.referees {
+    list-style: circle;
+    font-size: 60px;
+    margin: 40px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}
